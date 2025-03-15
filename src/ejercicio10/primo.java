@@ -15,9 +15,11 @@ public class primo {
         int numero = value.nextInt();
 
           if (numero%2==0){
-              System.out.println("No es primo");
+            // No es cierto: el 2, que es par, SÍ es primo.
+            System.out.println("No es primo");
           } else {
-              System.out.println("Es primo");
+            // No es cierto: el 15, que es impar, no es primo.
+            System.out.println("Es primo");
           }
 
 

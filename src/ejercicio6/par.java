@@ -2,6 +2,9 @@ package ejercicio6;
 
 import java.util.Scanner;
 
+// Algunas veces pones todo el nombre de la clase en mayúsculas...
+// pero en otras ocasiones...
+// La primera letra es la que está en mayúsculas; el resto, en minúsculas.
 public class par {
     public static void main(String[] args) {
 
@@ -13,6 +16,7 @@ public class par {
 
     }
     public static void Answer(int number){
+        // Aprovecha para trabajar con booleanos.
         if (number%2 ==0){
             System.out.println("ES PAR");
         }else {

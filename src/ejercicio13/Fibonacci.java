@@ -10,7 +10,9 @@ public class Fibonacci {
         int segundoNumero=1;
 
         System.out.println(primerNumero);
+        // ¿Y el segundo número no lo muestras por pantalla?
         for (int i=0; i<9;i++){
+            // en la segunda iteración deja de ser "primerNumero".
             int temp = primerNumero;
             primerNumero = segundoNumero;
             segundoNumero = temp + segundoNumero;
