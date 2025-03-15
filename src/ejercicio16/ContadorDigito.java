@@ -17,6 +17,7 @@ public class ContadorDigito {
             numero /=10;
             contador++;
         }
+        // "El número de dígitos del número X es Y"
         System.out.print(contador);
     }
 

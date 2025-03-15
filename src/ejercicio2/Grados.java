@@ -8,7 +8,7 @@ public class Grados {
 
         Scanner value = new Scanner(System.in);
 
-        System.out.print("Ingrese el valor en grados celcius: ");
+        System.out.print("Ingrese el valor en grados celsius: ");
         double grado = value.nextDouble();
 
         Answer(grado);
